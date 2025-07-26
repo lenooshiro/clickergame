@@ -1,0 +1,22 @@
+[gd_scene load_steps=2 format=3 uid="uid://cdh7qt302e0xf"]
+
+[ext_resource type="Script" uid="uid://dte2hwu1uup6e" path="res://main_node.gd" id="1_lwogq"]
+
+[node name="MainNode" type="Node2D"]
+script = ExtResource("1_lwogq")
+
+[node name="btnGetGold" type="Button" parent="."]
+offset_left = 560.0
+offset_top = 154.0
+offset_right = 592.0
+offset_bottom = 186.0
+metadata/_edit_use_anchors_ = true
+metadata/btnGetGold = false
+
+[node name="lblGold" type="Label" parent="."]
+offset_left = 295.0
+offset_top = 21.0
+offset_right = 358.0
+offset_bottom = 44.0
+text = "GOLD: 0"
+horizontal_alignment = 1
